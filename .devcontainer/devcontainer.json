@@ -1,0 +1,13 @@
+{
+	"name": "vscode-python-docker",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
+  	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+}

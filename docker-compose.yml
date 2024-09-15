@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: vscode-python-docker
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./:/workspace
+    tty: true
